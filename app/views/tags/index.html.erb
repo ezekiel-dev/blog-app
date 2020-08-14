@@ -1,0 +1,7 @@
+<h3>Available tags</h3>
+<ul>
+  <% @tags.each do |tag| %>
+    <li><%= link_to tag.name, articles_path %></li>
+  <% end %>
+</ul>
+
